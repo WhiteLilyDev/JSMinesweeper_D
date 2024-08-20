@@ -1,10 +1,13 @@
 # DDT_10×7×15_MinesweeperAnalyser (DDTMA)
 
 ## 什么？你说下面的你全看不懂？
-① 首先，点开这里 → https://whitelilydev.github.io/JSMinesweeper_D/DDT.html
-② 然后，把扫雷调到你要分析的情景，鼠标滚轮设定雷数，左键设定是否已揭开，右键设定是不是确定的雷。
-③ 然后点击Analys就是分析，如果Analys灰了说明情况错了，红色是雷 绿色是安全 数字是是有雷的概率。   
-④ 重复②③，成功过关后重新点击①或者点击左边的[Reset board]。
+- ① 首先，点开这里 → https://whitelilydev.github.io/JSMinesweeper_D/DDT.html
+
+- ② 然后，把扫雷调到你要分析的情景，鼠标滚轮设定雷数，左键设定是否已揭开，右键设定是不是确定的雷。
+
+- ③ 然后点击Analys就是分析，如果Analys灰了说明情况错了，红色是雷 绿色是安全 数字是是有雷的概率。
+
+- ④ 重复②③，成功过关后重新点击①或者点击左边的[Reset board]。
 
 ## How to use the DDTMA
 
