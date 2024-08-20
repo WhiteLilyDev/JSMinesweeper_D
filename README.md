@@ -53,6 +53,6 @@ This is used to quickly find any moves which are trivially discovered:
 
 If plays are discovered then processing ends at this stage.  Further analysis might find other options, but equally they might be found trivially in the next iteration of the solver.
 
-## !!!
+## Thanks
 
-Thanks to https://davidnhill.github.io/JSMinesweeper/
+Thanks to https://github.com/DavidNHill/Minesweeper
