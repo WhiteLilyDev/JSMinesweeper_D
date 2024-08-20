@@ -27,17 +27,6 @@ The safe tiles are shown in green and the mines in red. If no certain move is av
 
 If you are playing a game and using the analyser to provide assistance then you can keep the mine count in step by selecting "Lock mine count".  Now every time a flag is placed the mine counter is reduced by one.
 
-## Using the Analyser to construct boards to keep
-
-If you wish to construct a board to share with friends or to see how the solver would approach playing it, then place flags in the location of where the mines are and **Download as MBF**.  Drop the downloaded file into the Minesweeper Player's play area to load the game.
-
-## High level components
-
-There are three high level components
-- The Minesweeper game - this generates the board and is sent moves by the GUI.
-- The GUI - gets moves from the Player or the Solver and sends them to the Minesweeper game, who returns the result of the move which is rendered. It also renders information the solver has calculated.
-- The Solver - The GUI passes the board state to the solver which calculates a play and returns the move(s) to the GUI, which passes them onto the Minesweeper game.
-
 ## How the solver determines the best play
 
 The solver has a number of techniques it uses to solve the board:
